@@ -1,0 +1,210 @@
+@CHARSET "ISO-8859-1";
+
+.container {
+	background-color: aqua;
+	height: 60vh;
+	width: 50vw;
+	margin-left: 20%;
+}
+
+.heading {
+	background-color: gray;
+	height: 10vh;
+	width: 45vw;
+	margin-left: 5%;
+	margin-right: 5%;
+	
+}
+
+.heading2 {
+	background-color: white;
+	height: 5vh;
+	width: 45vw;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.text {
+	font-size: 100%;
+	color: white;
+	padding-top: 8%;
+}
+
+.fontsize {
+	font-size: 150;
+	background-color: white;
+	color: black;
+}
+
+.homecontainer {
+	background-color: white;
+	color: black;
+	width: 40%;
+	height: 40%;
+	margin-left: 17%;
+	margin-top: -2.5%;
+	display: none;
+}
+
+.hometext{
+	visibility: hidden;
+	color: black;
+}
+
+
+
+.textfonts{
+	
+	background-color: yellow;
+	
+}
+
+
+
+.border{
+	border-style: solid;
+    border-color: navy;
+}
+
+.buttonborder{
+	background-color: white;
+	color: black;
+    border: 2px solid  #008CBA;
+}
+
+
+.buttonborderhover{
+	background-color: #008CBA;
+    color: white;
+    
+}
+
+.textbackground{
+	background-color: blue;
+}
+
+
+.dropdowncontainer{
+	background-color: white;
+	color: black;
+	width: 40%;
+	height: 40%;
+	margin-left: 25%;
+	margin-top: -2.5%;
+}
+
+
+
+.imghidden{
+	
+	 visibility: hidden;
+	 transition: 0.4s;
+}
+.text1 {
+	display:none;
+	 visibility: hidden;
+    overflow: hidden;
+	background-color: gray;
+	height: 25vh;
+	width: 45vw;
+	margin-left: 5%;
+	margin-right: 5%;
+	
+	}
+	
+	
+	.display{
+	display:flex;
+	flex-wrap:wrap;
+	}
+	
+	.input{
+	width: 30%;
+	display:flex;
+	flex:wrap;
+	}
+.submit{
+	width: 20%;
+}
+
+
+@media screen and (max-width:1000px){
+	
+	.container {
+	margin-top: 2%;
+	height: 70vh;
+	width: 50vw;
+	margin-left: 15%;
+}
+	
+	
+	.text {
+	   visibility: hidden;
+	  
+	
+	}
+	
+	.heading {
+	background-color: gray;
+	height: 10vh;
+	width: 45vw;
+	
+	
+}
+	
+	
+	.imghidden{
+	visibility: visible;
+	width: 35px;
+    height: 6px;
+    background-color: black;
+    margin: 6px 0;
+   margin-left: 90%;
+  
+	}
+	
+	
+	.toplevel{
+	   margin-top: -15%;
+	
+	
+	}
+	.text2{
+	visibility: visible;
+	}
+
+
+   .showdropdown{
+         display: none;
+         
+         background-color: white;
+	color: black;
+	width: 20%;
+	height: 20%;
+	
+   }
+   
+   .text1height{
+   height: 30vh;
+   }
+
+	
+	}
+
+
+@media screen and (max-width:700px){
+	
+	.container {
+	margin-top: 2%;
+	height: 70vh;
+	width: 50vw;
+	margin-left: 8%;
+}
+	.imghidden{
+	
+   margin-left: 80%;
+  
+	}
+	
+
+}

@@ -1,0 +1,33 @@
+@CHARSET "ISO-8859-1";
+
+
+.firstpanel{
+	background-color: gray;
+	color: white;
+	width: 40vw;
+	height: 5vh;
+	margin-left: 10%;
+}
+
+
+.panel1para{
+	width: 40vw;
+	display: none;
+    overflow: hidden;
+	margin-left: 10%;
+}
+
+
+.dipslay{
+	
+	overflow: visible;
+}
+
+.panel2para{
+	width: 40vw;
+	display: none;
+    overflow: hidden;
+	margin-left: 10%;
+	
+}
+
