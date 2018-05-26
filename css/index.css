@@ -3,18 +3,18 @@
 .container{
 	
 	background-color:#6495ED;
-	height: 60vh;
-	width: 50vw;
-	margin-left: 20%;
+	height: 80vh;
+	width: 80vw;
+	margin-left: 10%;
 }
 
 
 .heading{
 	background-color: #E0FFFF;
 	height: 10vh;
-	width: 45vw;
-	margin-left: 5%;
-	margin-right: 5%;
+	width: 60vw;
+	margin-left: 10%;
+	
 	text-align: center;
 	color: black;
 }
@@ -47,4 +47,23 @@
 }
 
 
-
+@media screen and (max-width:500px){
+	
+	.heading{
+	margin-top:10%;
+	text-align: center;
+	color: black;
+	font-size: 80%;
+}
+	
+	.text{
+	
+	margin-top:20%;
+	font-size: 130%;
+	text-shadow: black;
+	font-style: italic;
+	
+}
+	
+	
+}

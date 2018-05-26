@@ -31,3 +31,36 @@
 	
 }
 
+
+
+@media screen and (max-width:500px){
+	
+	.panel1para{
+	width: 60vw;
+	display: none;
+    overflow: hidden;
+	margin-left: 5%;
+}
+	
+	
+	.panel2para{
+	width: 60vw;
+	display: none;
+    overflow: hidden;
+	margin-left: 5%;
+	
+}
+
+.firstpanel{
+	background-color: gray;
+	color: white;
+	width: 60vw;
+	height: 5vh;
+	margin-left: 5%;
+}
+	
+	
+	
+	
+	}
+

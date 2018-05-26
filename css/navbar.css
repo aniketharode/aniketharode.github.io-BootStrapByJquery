@@ -128,13 +128,23 @@
 }
 
 
-@media screen and (max-width:1000px){
+
+.fontsizes{
+	
+	color:black;
+	font-size: 130%;
+	
+}
+
+
+/* ********************************************************** */
+@media screen and (max-width:1000px){   
 	
 	.container {
 	margin-top: 2%;
 	height: 70vh;
-	width: 50vw;
-	margin-left: 15%;
+	width: 80vw;
+	margin-left: 10%;
 }
 	
 	
@@ -147,11 +157,26 @@
 	.heading {
 	background-color: gray;
 	height: 10vh;
-	width: 45vw;
+	width: 70vw;
 	
 	
 }
+
+.text1 {
+	height: 30vh;
+	width: 70vw;
+	margin-left: 5%;
+	margin-right: 5%;
 	
+	}
+	
+	.fontsizes{
+	
+	color:black;
+	font-size: 130%;
+	
+}
+		
 	
 	.imghidden{
 	visibility: visible;
@@ -165,13 +190,23 @@
 	
 	
 	.toplevel{
-	   margin-top: -15%;
+	   margin-top: -10%;
 	
 	
 	}
 	.text2{
 	visibility: visible;
 	}
+
+
+.input{
+	width: 30%;
+	}
+	
+	.submit{
+	width: 20%;
+	height: 40%;
+}
 
 
    .showdropdown{
@@ -185,19 +220,22 @@
    }
    
    .text1height{
-   height: 30vh;
+   height: 36vh;
    }
 
 	
 	}
 
 
+/* ********************************************************** */
+
+
 @media screen and (max-width:700px){
 	
 	.container {
 	margin-top: 2%;
-	height: 70vh;
-	width: 50vw;
+	height: 80vh;
+	width: 80vw;
 	margin-left: 8%;
 }
 	.imghidden{
@@ -205,6 +243,150 @@
    margin-left: 80%;
   
 	}
+	.fontsizes{
 	
+	color:black;
+	font-size: 130%;
+	
+}
+
+.toplevel{
+	   margin-top: -15%;
+	
+	
+	}
+
+.heading {
+	
+	height: 10vh;
+	width: 70vw;
+	
+	
+}
+
 
 }
+
+/* ********************************************************** */
+
+@media screen and (max-width:500px){
+	
+	.container {
+	margin-top: 5%;
+	height: 80vh;
+	width: 80vw;
+	margin-left: 8%;
+}
+
+.heading {
+	background-color: gray;
+	height: 10vh;
+	width: 70vw;
+	
+	
+}
+
+
+.text1 {
+	
+	height: 35vh;
+	width: 70vw;
+	margin-left: 5%;
+	margin-right: 5%;
+	
+	}
+	
+	
+	
+	.showdropdown{
+	width: 50%;
+	height: 20%;
+	
+   }
+   
+   .fontsizes{
+	
+	color:black;
+	font-size: 100%;
+	
+}
+   .input{
+	width: 40%;
+	}
+   .toplevel{
+	   margin-top: -15%;
+	margin-left: 30%;
+	
+	}
+   
+	}
+	
+	
+	
+	/* ********************************************************** */
+	
+	
+	@media screen and (max-width:400px){
+	
+		.toplevel{
+	   margin-top: -15%;
+	margin-left: 30%;
+	}
+	
+	
+	.fontsizes{
+	
+	color:black;
+	font-size: 80%;
+	
+}
+
+
+
+/* ********************************************************** */
+
+
+
+	@media screen and (max-width:350px){
+	
+		.toplevel{
+	   margin-top: -15%;
+	margin-left: 20%;
+	}
+	
+	.input{
+	width: 50%;
+	}
+	
+	.submit{
+	width: 35%;
+}
+	
+	.fontsizes{
+	
+	color:black;
+	font-size: 80%;
+	
+	
+}
+	
+	@media screen and (max-width:330px){
+	
+	.toplevel{
+	   margin-top: -30%;
+	margin-left: 20%;
+	}
+	
+	
+	}
+	
+	
+	}
+	
+	
+	
+	
+	
+	
+	
+	
